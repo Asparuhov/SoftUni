@@ -22,7 +22,7 @@ function solve(commands) {
         }
       }
     });
-  
+  //sort
     Object.keys(movies).forEach(name=>{
       const movie=movies[name];
       if(movie && movie.director && movie.date){
