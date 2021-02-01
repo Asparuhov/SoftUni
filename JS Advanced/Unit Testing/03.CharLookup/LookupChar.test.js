@@ -23,7 +23,11 @@ describe("lookUpChar Testing", () => {
   it("check for valid", () => {
     expect(lookupChar("fivee", 4)).to.equal("e");
   });
-  it("check for empty str", () => { 
+  it("check for empty str", () => {
     expect(lookupChar(" ", 0)).to.equal(" ");
   });
+  it("check for empty str", () => {
+    expect(lookupChar(" ", false)).to.equal(undefined);
+  });
+ 
 });
