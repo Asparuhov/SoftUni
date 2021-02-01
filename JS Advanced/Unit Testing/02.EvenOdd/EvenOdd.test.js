@@ -1,5 +1,5 @@
 const { expect } = require("chai");
-const isOddOrEven = require("./EvenOdd.js");
+const isOddOrEven = require("../EvenOdd.js");
 
 describe("Request validation", () => {
   it("Check for undefined with number", () => {
